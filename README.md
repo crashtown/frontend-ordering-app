@@ -1,5 +1,7 @@
 # The Mumbling Murlocs - Part A Questionnaire
 
+![alt text](https://github.com/nicdevlin/frontend-ordering-app/blob/master/images/murloc.png)
+
 **1. Who is your client?**
 
 Our client is Anthony Goddard, an entrepreneur.
@@ -86,7 +88,7 @@ A vendor can send multiple orders chosen from a list of products to suppliers wh
 
 E.g. Vendor A creates an order from selected items from Supplier A. They then create another order for items from Supplier B. Meanwhile, Vendor B only orders from vendor A. Supplier A receives orders from both Vendor A and B which have been collected in a list of orders (order set), whilst vendor B only receives the order from Vendor A.
 
-![alt text](https://github.com/nicdevlin/frontend-ordering-app/blob/master/images/high.jpg)
+![alt text](https://github.com/nicdevlin/frontend-ordering-app/blob/master/images/high.png)
 
 
 
@@ -140,13 +142,13 @@ Please see image below for our schema layout.
 
 **14.Provide User stories for your App.**
 
-Please see our Trello board link [here[(https://trello.com/b/d6eDsOWU)for our comprehensive list of user stories.
+Please see our Trello board link [here](https://trello.com/b/d6eDsOWU)for our comprehensive list of user stories.
 
 
 
 **15. Provide Wireframes for your App.**
 
-Please see our Figma board [here[(https://www.figma.com/file/TMGBdx8vk0HbVzOJrajTApJ9/B2B-Ordering-Platform)for our detailed wireframes.
+Please see our Figma board [here](https://www.figma.com/file/TMGBdx8vk0HbVzOJrajTApJ9/B2B-Ordering-Platform)for our detailed wireframes.
 
 **16. Describe the way Tasks are being allocated and tracked in your project.**
 
