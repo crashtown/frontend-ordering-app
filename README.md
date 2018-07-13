@@ -12,15 +12,21 @@ Our client is Anthony Goddard, an entrepreneur.
 
 Creating a generic business to business ordering platform that will fit into any retail/services company model and will remove the requirement for email/phone orders.
 
+
+
 **3. Describe the client&#39;s current setup and data.**
 
 The target client would either have an existing phone/emails order setup or an outdated ticketing/job system that doesn&#39;t fit their company requirements.
+
+
 
 **4. Describe the project will you be conducting and how your App will address the**
 
 **client&#39;s needs.**
 
 The client will save countless wasted hours spent on the phone due to the app removing the requirement of phone orders. This app will allow a supplier to create an account, add their products avknd invite their customers to signup and place orders. These orders will be scheduled for delivery on a selected date. Suppliers will also be able to log on to a portal to check and process orders.
+
+
 
 **5. Identify and describe the software (including databases) to be used in your**
 
@@ -34,9 +40,9 @@ For backend we will be using NodeJS, Express and MongoDB.
 
 We are using the NodeJS framework for its highly customizable package options and its very modular codebase. Express will be used as the main web server component for Node and MongoDB will be used for its ease of scalability.
 
-
-
 MongoDB for its flexibility with collections and rapidly prototype apps. We will also be using Mongoose in conjunction with MongoDB to create a structured schema for our DB.
+
+
 
 **6. Identify and describe the network setup you will use in your development.**
 
@@ -48,59 +54,27 @@ Each function of our app will be split over several services for redundancy and 
 
 **on.**
 
-Server Infrastructure
+### Server Infrastructure
 
 For server side hardware, we will be using the hardware that our cloud vendors Heroku and mLabs have commissioned from AWS.
 
-Client Infrastructure
+### Client Infrastructure
 
 For client side hardware, the devices accessing our app will be smartphones, tablets, laptops and desktop PCs that run todays latest web browsers.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **8. Describe the architecture of your App.**
-
-
 
 The diagram below describes the architecture of the app.
 
 The backend is a restful api that takes client side requests, passes the request through any middleware to check things like authentication or authorization and queries the database. The database then sends back the queried data to the back end which in turn passes the data to the front end as a response to the request.
 
-PIC FOR ARCHITECTURE
-
-
-
-
-
-
-
-
-
-
+![alt text](https://github.com/nicdevlin/frontend-ordering-app/blob/master/images/arch.jpg)
 
 
 
 **9. Explain the different high-level components (abstractions) in your App.**
-
-
 
 The diagram below shows the high-level abstractions contained within the app. The main components are vendor and supplier.
 
@@ -112,7 +86,9 @@ A vendor can send multiple orders chosen from a list of products to suppliers wh
 
 E.g. Vendor A creates an order from selected items from Supplier A. They then create another order for items from Supplier B. Meanwhile, Vendor B only orders from vendor A. Supplier A receives orders from both Vendor A and B which have been collected in a list of orders (order set), whilst vendor B only receives the order from Vendor A.
 
-PIC FOR HIGH LEVEL COMPONENTS
+![alt text](https://github.com/nicdevlin/frontend-ordering-app/blob/master/images/high.jpg)
+
+
 
 **10. Detail any third party services that your App will use.**
 
@@ -138,11 +114,15 @@ MongoDB Instance Hosting - Mlab.com
 
 A free tier plan from mLabs will be used to give our Node and Express instance a MongoDB instance to save data too.
 
+
+
 **11. Identify the database to be used in your app and provide a justification for**
 
 **your choice.**
 
 The database system we will be using in our app is MongoDB, this option was chosen as it is best suited for rapid growing businesses due to its sharding feature. This allows MongoDB to split its load over several hosts quickly and painlessly when companies need to scale.
+
+
 
 **12.Discuss the database relations to be implemented.**
 
@@ -150,29 +130,23 @@ As we are using a NoSQL database, there are no relationships by default. However
 
 
 
-
-
-
-
-
-
-
-
-
-
 **13.Provide your database schema design.**
 
-**PIC FOR DATABASE SCHEMA**
+Please see image below for our schema layout.
+
+![alt text](https://github.com/nicdevlin/frontend-ordering-app/blob/master/images/schema.jpg)
 
 
 
 **14.Provide User stories for your App.**
 
-TBA - in progress
+Please see our Trello board link [here[(https://trello.com/b/d6eDsOWU)for our comprehensive list of user stories.
+
+
 
 **15. Provide Wireframes for your App.**
 
-TBA - Clayton to complete
+Please see our Figma board [here[(https://www.figma.com/file/TMGBdx8vk0HbVzOJrajTApJ9/B2B-Ordering-Platform)for our detailed wireframes.
 
 **16. Describe the way Tasks are being allocated and tracked in your project.**
 
@@ -186,9 +160,13 @@ Agile methodology will be implemented into our app by having stand up sessions e
 
 We are using a Trello board with user stories for delegation of tasks between us, for the coding process we will be splitting our user stories into sprints that are 2 days in length. After a sprint is finished, we will get together to review and provide group feedback on the work completed.
 
+
+
 **18. Provide an overview and description of your Source control process.**
 
 The service we have chosen to use for Source Control is GitHub, as its free and extremely popular. Our process is our Project Manager creates our initial repo, which all of us as team members create a fork of. We all work on our own forks of the original repo, and create pull requests for any work we complete. This is then reviewed by the Project Manager and committed once verified.
+
+
 
 **19. Provide an overview and description of your Testing process.**
 
@@ -196,7 +174,7 @@ We are implementing a test driven development (TDD) approach towards our app, we
 
 For continuous integration testing we will be using TravisCI to push small chunks of code to our github repo and have the code autonomously built and tested for any errors.
 
-For the frontend we will be using Jest
+We will be using Jest for frontend testing, this is a zero-configuration test platform for React.
 
 
 
@@ -209,6 +187,8 @@ A few key requirements for our system security include but are not limited too, 
 **21. Discuss methods you will use to protect information and data.**
 
 Our app will collect and store minimal information on users, any information that is collected will be encrypted and stored safely on reputable cloud hosting providers. Any critical and important security updates for our hosting environments will be completed ASAP while ensuring minimal downtime.
+
+
 
 **22. Research what your legal obligations are in relation to handling user data.**
 
