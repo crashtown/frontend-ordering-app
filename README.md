@@ -1,3 +1,5 @@
+# The Mumbling Murlocs - Part A Questionnaire
+
 **1. Who is your client?**
 
 Our client is Anthony Goddard, an entrepreneur.
@@ -18,7 +20,7 @@ The target client would either have an existing phone/emails order setup or an o
 
 **client&#39;s needs.**
 
-The client will save countless wasted hours spent on the phone due to the app removing the requirement of phone orders. This app will allow a supplier to create an account, add their products and invite their customers to signup and place orders. These orders will be scheduled for delivery on a selected date. Suppliers will also be able to log on to a portal to check and process orders.
+The client will save countless wasted hours spent on the phone due to the app removing the requirement of phone orders. This app will allow a supplier to create an account, add their products avknd invite their customers to signup and place orders. These orders will be scheduled for delivery on a selected date. Suppliers will also be able to log on to a portal to check and process orders.
 
 **5. Identify and describe the software (including databases) to be used in your**
 
