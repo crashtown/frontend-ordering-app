@@ -8,9 +8,7 @@ Our client is Anthony Goddard, an entrepreneur.
 
 
 
-**2.What is your client&#39;s need (i.e. challenge) that you will be addressing in your**
-
-**project?**
+**2.What is your client&#39;s need (i.e. challenge) that you will be addressing in your project?**
 
 Creating a generic business to business ordering platform that will fit into any retail/services company model and will remove the requirement for email/phone orders.
 
@@ -22,17 +20,13 @@ The target client would either have an existing phone/emails order setup or an o
 
 
 
-**4. Describe the project will you be conducting and how your App will address the**
-
-**client&#39;s needs.**
+**4. Describe the project will you be conducting and how your App will address the client&#39;s needs.**
 
 The client will save countless wasted hours spent on the phone due to the app removing the requirement of phone orders. This app will allow a supplier to create an account, add their products avknd invite their customers to signup and place orders. These orders will be scheduled for delivery on a selected date. Suppliers will also be able to log on to a portal to check and process orders.
 
 
 
-**5. Identify and describe the software (including databases) to be used in your**
-
-**App.**
+**5. Identify and describe the software (including databases) to be used in your App.**
 
 We will be using the MERN tech stack for our app.
 
@@ -52,9 +46,7 @@ Each function of our app will be split over several services for redundancy and 
 
 
 
-**7. Identify and describe the infrastructure (i.e. hardware) that your App will run**
-
-**on.**
+**7. Identify and describe the infrastructure (i.e. hardware) that your App will run on.**
 
 ### Server Infrastructure
 
@@ -118,9 +110,7 @@ A free tier plan from mLabs will be used to give our Node and Express instance a
 
 
 
-**11. Identify the database to be used in your app and provide a justification for**
-
-**your choice.**
+**11. Identify the database to be used in your app and provide a justification for your choice.**
 
 The database system we will be using in our app is MongoDB, this option was chosen as it is best suited for rapid growing businesses due to its sharding feature. This allows MongoDB to split its load over several hosts quickly and painlessly when companies need to scale.
 
@@ -149,6 +139,8 @@ Please see our Trello board link [here](https://trello.com/b/d6eDsOWU)for our co
 **15. Provide Wireframes for your App.**
 
 Please see our Figma board [here](https://www.figma.com/file/TMGBdx8vk0HbVzOJrajTApJ9/B2B-Ordering-Platform)for our detailed wireframes.
+
+
 
 **16. Describe the way Tasks are being allocated and tracked in your project.**
 
