@@ -132,13 +132,13 @@ Please see image below for our schema layout.
 
 **14.Provide User stories for your App.**
 
-Please see our Trello board link [here](https://trello.com/b/d6eDsOWU)for our comprehensive list of user stories.
+Please see our Trello board link [here](https://trello.com/b/d6eDsOWU) for our comprehensive list of user stories.
 
 
 
 **15. Provide Wireframes for your App.**
 
-Please see our Figma board [here](https://www.figma.com/file/TMGBdx8vk0HbVzOJrajTApJ9/B2B-Ordering-Platform)for our detailed wireframes.
+Please see our Figma board [here](https://www.figma.com/file/TMGBdx8vk0HbVzOJrajTApJ9/B2B-Ordering-Platform) for our detailed wireframes.
 
 
 
@@ -186,4 +186,4 @@ Our app will collect and store minimal information on users, any information tha
 
 **22. Research what your legal obligations are in relation to handling user data.**
 
-Our legal obligations in relation to handling user data requires us to abide by the Privacy Act of 1988 ( [https://www.oaic.gov.au/privacy-law/](https://www.oaic.gov.au/privacy-law/)). This means we by law we need to store any sensitive personal data collected in a secure and encrypted manner. Any breach of our databases/system will require us to adhere to the The Notifiable Data Breaches (NDB) scheme under Part IIIC of the Privacy Act 1988 (Privacy Act).
+Our legal obligations in relation to handling user data requires us to abide by the [Privacy Act of 1988](https://www.oaic.gov.au/privacy-law/). This means we by law we need to store any sensitive personal data collected in a secure and encrypted manner. Any breach of our databases/system will require us to adhere to the The Notifiable Data Breaches (NDB) scheme under Part IIIC of the [Privacy Act of 1988](https://www.oaic.gov.au/privacy-law/).
